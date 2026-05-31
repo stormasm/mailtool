@@ -1,0 +1,7 @@
+[package]
+name = "mailtool"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+mail-builder = "0.4"
