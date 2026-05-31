@@ -40,6 +40,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
         // Ensure there is an extra trailing newline following the message block
         writeln!(mbox_file)?;
+        writeln!(mbox_file, "")?;
     }
 
     Ok(())
